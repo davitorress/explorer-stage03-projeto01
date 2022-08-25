@@ -1,0 +1,31 @@
+header {
+	text-align: center;
+}
+
+header h1 {
+	font-size: 3.6rem;
+	line-height: 4.5rem;
+}
+
+header p {
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+}
+
+header #stars {
+	margin-top: 24px;
+	margin-bottom: 32px;
+}
+
+header .form-header {
+	height: 130px;
+
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+	border: 0;
+	border-radius: 20px 20px 0 0;
+
+	background-color: var(--secondary);
+}

@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--background: #bfd7e4;
+	--primary: #293241;
+	--secondary: #f67669;
+	--text: #fff;
+	--form-text: #4e4958;
+	--border: #e6e6f0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body,
+input,
+button,
+select,
+textarea {
+	font-weight: 400;
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+	width: 100%;
+	min-height: 100vh;
+
+	color: var(--text);
+
+	background-color: var(--background);
+}
+
+body::before {
+	content: "";
+	width: 100%;
+	height: 415px;
+
+	top: 0;
+	left: 0;
+	z-index: -1;
+	position: absolute;
+
+	background-color: var(--primary);
+}
+
+#page {
+	max-width: 750px;
+
+	margin: 0 auto;
+	padding: 55px 0;
+}
+
+h1,
+h2,
+legend,
+button {
+	font-weight: 400;
+	font-family: "Staatliches", cursive;
+}
+
+h2,
+legend {
+	font-size: 2.4rem;
+	line-height: 3.4rem;
+}
